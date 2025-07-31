@@ -1,52 +1,134 @@
-# MERN Stack Capstone Project
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+## Project Introduction
+FlowDesk is a task and productivity management web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This full-stack solution enables users to efficiently create, manage, and track tasks, set priorities, and collaborate in a structured, intuitive interface — showcasing all the skills acquired throughout the course.
 
-## Assignment Overview
 
+## Project Overview
 You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+
+Plan and design a full-stack MERN application
+
+Develop a robust backend with MongoDB, Express.js, and Node.js
+
+Create an interactive frontend with React.js
+
+Implement testing across the entire application
+
+Deploy the application to production
+
 
 ## Getting Started
+Accept the GitHub Classroom assignment
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+Clone the repository to your local machine
+
+Follow the instructions in the Week8-Assignment.md file
+
+Plan, develop, and deploy your capstone project
+
+
 
 ## Files Included
+Week8-Assignment.md: Detailed assignment instructions
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+README.md: Project documentation
+
+client/: React frontend code
+
+server/: Express backend with MongoDB
+
 
 ## Requirements
+Node.js (v18 or higher)
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+MongoDB (local or Atlas)
 
-## Project Ideas
+npm or yarn
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+Git and GitHub account
 
-## Submission
+Account on deployment platforms (Render/Vercel/Netlify/etc.)
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+## Live Demo
+🌐 Live URL: https://flowdesk-taskmanager.vercel.app
+🎥 Video Demonstration: Watch Demo
+
+
+## Features
+User registration and authentication
+
+Create, edit, and delete tasks
+
+Task prioritization and status tracking
+
+Fully responsive UI
+
+RESTful API integration
+
+Protected routes with JWT authentication
+
+
+## Installation
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/PLP-MERN-Stack-Development/week-8-capstone_-Smartttechlady.git
+cd week-8-capstone_-Smartttechlady
+
+## Install server dependencies
+
+bash
+Copy
+Edit
+cd server
+npm install
+Install client dependencies
+
+bash
+Copy
+Edit
+cd ../client
+npm install
+
+## Start development servers
+
+Backend: npm run dev
+
+Frontend: npm start
+
+
+## Technologies Used 
+Frontend: React, Axios, Tailwind CSS
+
+Backend: Node.js, Express.js, MongoDB, Mongoose
+
+Authentication: JWT, bcrypt
+
+Deployment: Vercel (Frontend), Render (Backend)
+
+
+## Submission Checklist 
+ Code pushed to GitHub regularly
+
+ Application deployed to production
+
+ Live demo link added
+
+ Video demo created and linked
+
+ Full documentation included in README
 
 ## Resources
+MongoDB Documentation
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+Express.js Documentation
+
+React Documentation
+
+Node.js Documentation
+
+GitHub Classroom Guide
+
