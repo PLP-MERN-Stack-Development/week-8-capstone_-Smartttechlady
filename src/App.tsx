@@ -38,7 +38,7 @@ const PublicRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 function AppContent() {
   return (
-    <Router>
+    <Router basename="/week-8-capstone_-Smartttechlady">
       <div className="App">
         <Toaster position="top-right" />
         <SyncStatusBar />

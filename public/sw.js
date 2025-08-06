@@ -90,7 +90,7 @@ async function syncData() {
     // Import the offline manager
     const { offlineManager } = await import('/src/utils/offline.js');
     await offlineManager.syncPendingData();
-  } catch (error) {
+  } catch (error) {  
     console.error('Background sync failed:', error);
   }
 }
